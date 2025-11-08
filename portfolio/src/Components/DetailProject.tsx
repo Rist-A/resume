@@ -1,5 +1,4 @@
 import FlipStack from "../UI/flipstacks";
-import React from 'react'
 import VenomBeam from "../UI/venom-beam.tsx";
 import delivery from "../assets/delivery.png"
 import expense from "../assets/expenseTrack.webp"

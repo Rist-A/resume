@@ -1,4 +1,3 @@
-import React from "react";
 import ProfileCard from "../UI/profilecard";
 import { FaGithub, 
   FaLinkedin, 
@@ -7,9 +6,7 @@ import { FaGithub,
   FaCode, 
   FaServer, 
   FaCloud,
-  FaJs,
-  FaReact,
-  FaNode  } from "react-icons/fa";
+  } from "react-icons/fa";
 import VenomBeam from "../UI/venom-beam.tsx";
 import { SiJavascript, SiReact, SiNodedotjs } from "react-icons/si";
 

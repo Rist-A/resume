@@ -59,7 +59,6 @@ type DockItemProps = {
 
 function DockItem({
   item,
-  mouseX,
   spring,
   distance,
   magnification,
@@ -225,7 +224,6 @@ export default function MagicDock({
   magnification = 70,
   distance = 100,
   panelHeight = 64,
-  dockHeight = 256,
   baseItemSize = 50,
   variant = "default",
 }: MagicDockProps) {
@@ -250,7 +248,7 @@ export default function MagicDock({
     };
   }, []);
 
-const height = panelHeight;
+
 
 
   const getBgStyles = () => {

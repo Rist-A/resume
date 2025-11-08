@@ -1,9 +1,5 @@
-import React from 'react'
-import FooterFlow, {
-  FeatureItem,
-  HoverLink,
-} from "../UI/FooterFlow"
-import { Mail, Github, Linkedin, FileText } from "lucide-react";
+import FooterFlow from "../UI/FooterFlow"
+import {  Github, Linkedin, FileText } from "lucide-react";
 
 
 const Footer = () => {

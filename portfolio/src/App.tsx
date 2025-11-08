@@ -6,7 +6,6 @@ import { Home as HomeIcon, Folder as Briefcase, User as User, Send as Mail, Sun,
 import { useTheme } from './Context/ThemeContext';
 import Hero from './Components/Hero.tsx'
 import VenomBeam from "./UI/venom-beam.tsx";
-import { FlowingLogos } from "./UI/flowing-logos.tsx";
 import Skills from "./Components/Skills.tsx"
 import Projects from './Components/Projects.tsx';
 import Achievement from './Components/Achievement.tsx';

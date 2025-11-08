@@ -6,7 +6,7 @@ import type {Variants} from "framer-motion"
 import { Card, CardContent } from "../UI/card.tsx";
 import { cn } from "../lib/utils.ts";
 import GlassButton from "../UI/GlassButton.tsx"
-import DetailProject from "../Components/DetailProject.tsx";
+
 
 interface FlipStackCard {
   id: number;

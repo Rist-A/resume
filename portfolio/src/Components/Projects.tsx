@@ -1,6 +1,5 @@
 import FlipStack from "../UI/flipstack";
 import {X} from "lucide-react"
-import React from 'react'
 import { useState } from 'react'
 import img from "../assets/dashboard.avif"
 import assit from "../assets/assist.avif"

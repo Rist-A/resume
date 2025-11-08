@@ -1,5 +1,4 @@
 import StatsCarouselCount from "../UI/statscarousel";
-import React from 'react'
 
 const Achievement = () => {
   const achievements = [
