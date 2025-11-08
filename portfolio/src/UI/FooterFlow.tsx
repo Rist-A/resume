@@ -7,10 +7,6 @@ import {
   ChevronDown as ArrowDown,
   ChevronUp as ArrowUp,
   ArrowUp as UpArrow,
-  Mail,
-  Github,
-  Linkedin,
-  FileText,
 } from "lucide-react";
 
 interface FooterLink {
@@ -646,7 +642,7 @@ const FooterFlow: React.FC<FooterFlowProps> = ({
           >
             <div className="container py-4 px-4">
               <nav className="flex flex-col space-y-3">
-                {links.map((element, idx) => (
+                {links.map((element,) => (
                   <div key={element.text} className="space-y-2">
                     {element.submenu ? (
                       <>

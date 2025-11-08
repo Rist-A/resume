@@ -40,7 +40,7 @@ interface ProfileCardProps {
 }
 
 export default function ProfileCard({
-  img,
+ 
   name,
   bio,
   skills,

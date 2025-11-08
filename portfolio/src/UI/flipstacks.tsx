@@ -195,7 +195,7 @@ export default function FlipStack({
       category: "Analytics"
     },
   ],
-  onSeeMore,
+ 
 }: FlipStackProps) {
   const [isInView, setIsInView] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
