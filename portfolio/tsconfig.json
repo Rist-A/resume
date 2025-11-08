@@ -1,5 +1,7 @@
 {
    "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "target": "ESNext",
     "module": "ESNext",
     "lib": ["DOM", "ESNext"],
